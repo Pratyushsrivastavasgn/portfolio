@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyush Srivastava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(193, 194, 197);
+            color: orange;
+            font-family: 'lato' , sans-serif;
+        }nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: whitesmoke ;
+
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:  0 23px;
+
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            margin:  0 23px;
+            color: orange;
+        }
+        nav ul li a:hover{
+            color: orangered;
+            font-size: 1.45rem;
+            
+        }
+        .l{
+            color: orangered;
+            font-size: 2rem;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+
+        }
+        .first div{
+            width: 30%;
+        }
+        .leftpart{
+            background-color: darkgray;
+            font-size: 3rem;
+            font-style: italic;
+            color: black;
+            margin: 20px;
+        }
+        .rightpart img {
+            
+            width: 80%;
+            height: 100%;
+            border-radius: 80%;           
+        }
+        .name {
+            color: orangered;
+        }
+        #element{
+            color: orangered;
+        }
+        footer{
+            background-color:orangered ;
+            height: 200px;
+        }
+        .footer{
+            display: flex;
+            padding: 53px 150px;
+        }
+        .f-second{
+            display: flex;
+            justify-content: space-around;
+        }
+        .f-second ul li{
+            list-style-type: none;
+
+            
+            
+
+        }
+        .f-first ul a{
+            text-decoration: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="l"> Pratyush's portfolio</div>
+            <div class="r">
+                <ul>
+                   <li><a href="">Home</a></li>
+                    <li><a href="">What am I?</a></li>
+                    <li><a href="">my journey </a></li>
+                    <li><a href="">My experiences</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+            <section class="first">
+                <div class="leftpart">
+                    Hello everyone! I am <span class="name">Pratyush Srivastava</span> , lets  connect and share knowledge.
+                    <span id="element">]</span>
+
+                </div>
+                <span class="rightpart">
+                    <img src="mef.png"alt="">
+                   
+                </span>
+            </section>
+
+
+
+        </main>
+
+        <footer>
+            <div class="flex">
+                <div class="f-first">
+                    <ul>
+                        <li><a href="https://www.instagram.com/pratyushsrivastavasgn/">Instagram</a></li>
+                        <li> </li>
+                        <li><a href="https://x.com/StudyPratyush">Twitter</a></li>
+                        <li></li>
+                        <li><a href="https://github.com/Pratyushsrivastavasgn">Git Hub</a></li>
+                        <li></li>
+                        <li><a href="https://www.linkedin.com/in/pratyush-srivastava-2b0480316/">Linkedin</a></li>
+                    </ul>
+                </div>
+                
+
+
+
+        </footer>
+
+    
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Winners never Quit and Quitters never win', 'Learn,grow,evolve and  win','excellence is the main destiny'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</html>
